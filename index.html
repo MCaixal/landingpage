@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Landing Page de la tienda Koakoa Shop con un descuento en la primera compra">
+    <title>Landing Page</title>
+    <link rel="icon" type="image/gif" href="img/favicon.gif"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="contenidor">
+    <div class="columnaesq">
+      <div>
+        <picture>
+          <source class="sello" srcset="img/Sello.webp" type="image/webp">
+          <source class="sello" srcset="img/Sello.avif" type="image/avif">
+          <img class="sello" src="img/Sello.png" alt="sello Koakoa">
+        </picture>
+      </div>
+    </div>
+    <div class="columnadreta">
+      <div class="capçalera">
+        <h1 class="titol">Guanya un <strong>15% de descompte</strong> en la teva primera compra</h1>
+        <p class="subtitol">Subscriu-te al nostre newsletter per rebre totes les promocions, notícies i esdeveniments que oferim a més a més d’un primer descompte perquè ens conegueu millor.</p>
+      </div>
+      <form>
+        <h2 class="form">Formulari de subscripció al newsletter</h2>
+        <div class="nom">
+          <label for="nom">Nom</label>
+          <input class="campdetext" type="text" id="nom" name="nom" required aria-required="true" placeholder="Introdueix aquí el teu nom">
+        </div>
+        <div class="cognom">
+          <label for="cognom">Cognom</label>
+          <input class="campdetext" type="text" id="cognom" name="cognom" required aria-required="true" placeholder="Introdueix aquí els teus cognoms">
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input class="campdetext" type="email" id="email" name="email" required aria-required="true" placeholder="Introdueix aquí un correu electrònic vàlid">
+        </div> 
+        <button type="submit" class="boto">Subscriu-me</button>
+        <div class="checks">
+          <div class="checkbox1">
+            <input type="checkbox" id="checkbox1" name="checkbox1" aria-labelledby="checkbox1-label">
+            <label id="checkbox1-label" for="checkbox1">Accepto rebre altres comunicacions relacionades amb Koakoa.</label>
+          </div>
+          <div class="checkbox2">
+            <input type="checkbox" id="checkbox2" name="checkbox2" aria-labelledby="checkbox2-label">
+            <label id="checkbox2-label" for="checkbox2">He llegit i accepto els termes del servei i la Política de privacitat de Koakoa.</label> 
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
